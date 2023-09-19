@@ -9,7 +9,7 @@ connnectDb();
 const homeRoute = require('./routes/homeRoute');
 
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://effulgent-sawine-38deb6.netlify.app",
     allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
   }));
 
