@@ -9,7 +9,7 @@ export const MainBody = () => {
     useEffect(()=>{
         async function fetchData() {
         try {
-            const {data} = await axios.get("http://localhost:4000/");
+            const {data} = await axios.get("https://quadbtech-uc6c.onrender.com/");
             let temp = data.arrayOfData;
             setcryptoData(temp);
             console.log(cryptoData);
